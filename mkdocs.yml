@@ -1,6 +1,8 @@
 site_name: Álgebra de Imagens
 site_description: Documentação da disciplina de Álgebra de Imagens
 site_author: Professor
+repo_url: https://github.com/medeirosdev/AlgebraImagensDoc
+repo_name: medeirosdev/AlgebraImagensDoc
 
 theme:
   name: material
