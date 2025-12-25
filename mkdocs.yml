@@ -1,0 +1,86 @@
+site_name: Álgebra de Imagens
+site_description: Documentação da disciplina de Álgebra de Imagens
+site_author: Professor
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Início: index.md
+  - Fundamentos:
+    - Estruturas Algébricas: 01-fundamentos/01-estruturas-algebricas.md
+    - Definição de Imagem: 01-fundamentos/02-definicao-imagem.md
+    - Amostragem e Quantização: 01-fundamentos/03-amostragem-quantizacao.md
+  - Álgebra de Templates:
+    - O que são Templates: 02-algebra-de-templates/01-o-que-sao-templates.md
+    - Operações Imagem-Template: 02-algebra-de-templates/02-operacoes-imagem-template.md
+    - Invariância à Translação: 02-algebra-de-templates/03-invariancia-translacao.md
+  - Processamento Clássico:
+    - Realce e Histogramas: 03-processamento-classico/01-realce-histogramas.md
+    - Filtragem Espacial: 03-processamento-classico/02-filtragem-espacial.md
+    - Domínio da Frequência: 03-processamento-classico/03-dominio-frequencia.md
+    - Detecção de Bordas: 03-processamento-classico/04-deteccao-bordas.md
+  - Morfologia Matemática:
+    - Erosão e Dilatação: 04-morfologia-matematica/01-erosao-dilatacao.md
+    - Abertura e Fechamento: 04-morfologia-matematica/02-abertura-fechamento.md
+  - Descritores e Features:
+    - Texturas e Haralick: 05-descritores-features/01-texturas-haralick.md
+    - Segmentação por Limiar: 05-descritores-features/02-segmentacao-limiar.md
+  - Deep Learning e Visão:
+    - Introdução às RNAs: 06-deep-learning-vision/01-intro-rnas.md
+    - CNNs - Fundamentos: 06-deep-learning-vision/02-cnns-fundamentos.md
+    - Arquiteturas Clássicas: 06-deep-learning-vision/03-arquiteturas-classicas.md
+    - Detecção e Segmentação: 06-deep-learning-vision/04-deteccao-segmentacao.md
