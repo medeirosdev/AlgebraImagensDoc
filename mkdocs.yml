@@ -61,9 +61,12 @@ extra_javascript:
 nav:
   - Início: index.md
   - Fundamentos:
-    - Estruturas Algébricas: 01-fundamentos/01-estruturas-algebricas.md
-    - Definição de Imagem: 01-fundamentos/02-definicao-imagem.md
-    - Amostragem e Quantização: 01-fundamentos/03-amostragem-quantizacao.md
+    - Ordem Parcial e Total: 01-fundamentos/01-ordem-parcial.md
+    - Máximo, Mínimo, Supremo e Ínfimo: 01-fundamentos/02-maximo-minimo-supremo.md
+    - Reticulados: 01-fundamentos/03-reticulados.md
+    - Álgebra Universal: 01-fundamentos/04-algebra-universal.md
+    - Reticulados como Álgebra: 01-fundamentos/05-reticulados-algebra.md
+    - Outras Estruturas: 01-fundamentos/06-outras-estruturas.md
   - Álgebra de Templates:
     - O que são Templates: 02-algebra-de-templates/01-o-que-sao-templates.md
     - Operações Imagem-Template: 02-algebra-de-templates/02-operacoes-imagem-template.md
