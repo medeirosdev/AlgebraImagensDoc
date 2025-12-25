@@ -61,12 +61,18 @@ extra_javascript:
 nav:
   - Início: index.md
   - Fundamentos:
+    - Introdução à Álgebra de Imagens: 01-fundamentos/00-introducao-algebra-imagens.md
     - Ordem Parcial e Total: 01-fundamentos/01-ordem-parcial.md
     - Máximo, Mínimo, Supremo e Ínfimo: 01-fundamentos/02-maximo-minimo-supremo.md
     - Reticulados: 01-fundamentos/03-reticulados.md
     - Álgebra Universal: 01-fundamentos/04-algebra-universal.md
     - Reticulados como Álgebra: 01-fundamentos/05-reticulados-algebra.md
     - Outras Estruturas: 01-fundamentos/06-outras-estruturas.md
+    - Conjuntos de Pontos: 01-fundamentos/07-conjuntos-pontos.md
+    - Operações Unárias: 01-fundamentos/08-operacoes-unarias.md
+    - Operações Binárias: 01-fundamentos/09-operacoes-binarias.md
+    - Operações Entre Conjuntos de Pontos: 01-fundamentos/10-operacoes-conjuntos-pontos.md
+    - Conjuntos de Valores: 01-fundamentos/11-conjuntos-valores.md
   - Álgebra de Templates:
     - O que são Templates: 02-algebra-de-templates/01-o-que-sao-templates.md
     - Operações Imagem-Template: 02-algebra-de-templates/02-operacoes-imagem-template.md
