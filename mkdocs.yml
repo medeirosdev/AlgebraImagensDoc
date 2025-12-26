@@ -75,6 +75,12 @@ nav:
     - Operações Binárias: 01-fundamentos/09-operacoes-binarias.md
     - Operações Entre Conjuntos de Pontos: 01-fundamentos/10-operacoes-conjuntos-pontos.md
     - Conjuntos de Valores: 01-fundamentos/11-conjuntos-valores.md
+    - Imagens: 01-fundamentos/12-imagens.md
+    - Operações sobre Imagens: 01-fundamentos/13-operacoes-imagens.md
+    - Composição: 01-fundamentos/14-composicao.md
+    - Operações Binárias (Imagens): 01-fundamentos/15-operacoes-binarias-imagens.md
+    - Especificação Funcional: 01-fundamentos/16-especificacao-funcional.md
+    - Operações Multi-valoradas: 01-fundamentos/17-operacoes-multivaloradas.md
   - Álgebra de Templates:
     - O que são Templates: 02-algebra-de-templates/01-o-que-sao-templates.md
     - Operações Imagem-Template: 02-algebra-de-templates/02-operacoes-imagem-template.md
